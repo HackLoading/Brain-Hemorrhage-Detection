@@ -1,26 +1,6 @@
 # Brain-Hemorrhage-Detection
 This project develops a deep learning system to classify brain CT scans as normal or hemorrhagic using MobileNet V2. It processes a dataset of 71,491 DICOM images, achieving ~90% accuracy. The system includes a preprocessing pipeline for efficient data handling and is designed for real-time clinical use.
 
-## 🛠️ Installation
-
-Follow these steps to set up the project on your local machine.
-
-### ✅ Prerequisites
-
-- Python 3.8 or higher  
-- TensorFlow 2.x  
-- pip (Python package installer)
-
-Make sure these are installed before continuing.
-
----
-
-### 📥 Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/brain-hemorrhage-detection.git
-cd brain-hemorrhage-detection
-
 # Dataset :
 71,491 DICOM images (35,539 normal, 35,952 hemorrhagic) from hospital CT scans.
 
@@ -34,5 +14,26 @@ Validation Loss: 0.240
 Python, TensorFlow, Keras, OpenCV, pydicom, NumPy, Matplotlib, Scikit-learn
 MobileNet V2 architecture
 Adam optimizer, Binary Cross-Entropy loss
+
+
+## 🛠️ Installation
+
+Follow these steps to set up the project on your local machine.
+
+### ✅ Prerequisites
+
+- Python 3.8 or higher  (preferable- Python 3.9.11) 
+- TensorFlow 2.x  
+- pip (Python package installer)
+
+Make sure these are installed before continuing.
+
+---
+
+### 📥 Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/brain-hemorrhage-detection.git
+cd brain-hemorrhage-detection
 
 
